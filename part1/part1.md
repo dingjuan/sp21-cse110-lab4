@@ -1,11 +1,11 @@
-### 1a.
+### 1a
 - 1. line 9 printed "values added: 20", since the var result is kind of defindes a variable globally regardless of the block scope
 - 2. line 13 printed "final result: 20", since the var result is kind of defindes a variable globally regardless of the block scope
 - 3. line 9 printed "values added: 20", since the let result is block-scoped variable, it can be accessed through the block inside
 - 4. line 13 has an error, becauce we only define let result inside the boolean check add block, out of the block, it will has ReferenceError: "result is not defined"
 - 5. line 9 has an error, because we can not modify a const variable after is be assigned
 - 6. line 13 also has an error, because const scope is also a "block scope" as let, so if we access it out of block scope, it will has ReferenceError: "result is not defined"
-### 1b.
+### 1b
 - 1. Line 12 will print 3, because, as var i is global-scope, then we can get i with length of list, since the for-loop range from 0 - 2, so we can get 3 of i.
 - 2. Line 13 we will print 300 * (2-0.5) = 450. since discountedPrice is also a global-scope variable, and it update by the last element of the list prices.
 - 3. line 14 we will get output 450, since we define the var finalPrice in the global scope, so we get update from the for-loop
