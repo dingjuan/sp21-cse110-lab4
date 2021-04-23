@@ -40,3 +40,4 @@
  - E. False, since when compare true with a int, it will convert true to 1, so 1 != 2, return false
  - F. True, Boolean is a function to check whether the variable/expression is true, so 2 is not 0, which is true. So true == true, return true
 15.  '==' is to compare the two variables by ignoring their datatype, so we can use "==" to check string and integer; Meanwhile, '===' is to compare two variables and also their datatypes too, so when we use different type, like '1' === 1, it will return false
+17.  The return array will be [2, 4, 6]. The process is we call the function modifyArray with array and the callback function "doSomething", inside the function, each iteration, the local variable newArr will add a return value from callback function with twice of the array[i]
