@@ -43,3 +43,4 @@
 16.  See on file "part1b-question16.js"
 17.  The return array will be [2, 4, 6]. The process is we call the function modifyArray with array and the callback function "doSomething", inside the function, each iteration, the local variable newArr will add a return value from callback function with twice of the array[i]
 18. See on file "part1b-question18.js"
+19. The output is 1, 4, 3, 2; '1' and '4' print first because they in the function excuting scope, and once we run console.log(2) in the timeout function, it will excute it 0ms after current excuting function, and '3' will be print in 1s after current excuting function.
